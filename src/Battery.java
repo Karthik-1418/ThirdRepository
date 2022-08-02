@@ -1,0 +1,26 @@
+
+public class Battery {
+	private int capacity;
+	private String brand;
+	private int price;
+
+public void setCapacity(int capacity) {
+	this.capacity = capacity;
+}
+public int getCapacity() {
+	return this.capacity;
+}
+public void setBrand(String brand) {
+	this.brand = brand;
+}
+public String getBrand() {
+	return this.brand;
+}
+public void setPrice(int price) {
+	this.price = price;
+}
+public int getPrice() {
+	return this.price;
+}
+	
+}
